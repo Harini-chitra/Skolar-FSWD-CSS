@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f9;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+.content {
+    background-color: #e0e0e0;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Responsive Design using Media Queries */
+@media (max-width: 600px) {
+    /* Styles for mobile devices */
+    .content {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .content {
+        font-size: 16px;
+        padding: 2em;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* Styles for desktops */
+    .content {
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 20px;
+        text-align: left;
+    }
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}

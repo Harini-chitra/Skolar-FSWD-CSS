@@ -1,0 +1,39 @@
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.text {
+    line-height: 1.5;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-heading {
+    font-size: 2em;
+    color: darkblue;
+}
+
+a[title] {
+    text-decoration: underline;
+    color: darkred;
+}
+
+a:hover {
+    color: orange;
+}
+
+.btn:hover {
+    background-color: lightblue;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    color: red;
+}

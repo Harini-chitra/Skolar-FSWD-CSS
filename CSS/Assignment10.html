@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images Example</title>
+    <link rel="stylesheet" href="Assignment10.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Responsive Images Demo</h1>
+    </header>
+    <main>
+        <section class="image-section">
+            <figure class="image-container">
+                <!-- Using srcset for responsive images -->
+                <img src="https://th.bing.com/th/id/R.9348149f6cd0e69371e2c2994e47b8de?rik=gnHIJm%2fup14Odg&riu=http%3a%2f%2fwww.nilsvoelker.com%2fcontent%2fvariationsOnPi%2f1200x1200_96dpi%2f04.jpg&ehk=zWUBwV70rgu3nftlfznFebHgyM1J6zWAp9Zs3oM3js8%3d&risl=&pid=ImgRaw&r=0"
+                     srcset="images/small.jpg 300w,
+                             images/medium.jpg 600w,
+                             images/large.jpg 1200w"
+                     sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 600px"
+                     alt="Responsive Images Demo">
+                <figcaption>Responsive Images</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Responsive Images Demo</p>
+    </footer>
+</body>
+</html>

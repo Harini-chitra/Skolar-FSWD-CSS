@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Section Styles */
+main {
+    padding: 2em;
+}
+
+/* Text Colors */
+.primary-color {
+    color: #3498db;
+}
+
+.secondary-color {
+    color: #2ecc71;
+}
+
+.accent-color {
+    color: #e74c3c;
+}
+
+/* Background Colors */
+.bg-primary {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.bg-secondary {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.bg-accent {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* Gradient Backgrounds */
+.gradient-linear {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.gradient-radial {
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+/* Image Backgrounds */
+.bg-image-repeat {
+    background-image: url('https://via.placeholder.com/150');
+    background-repeat: repeat;
+    padding: 2em;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.bg-image-no-repeat {
+    background-image: url('https://via.placeholder.com/150');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.bg-image-position {
+    background-image: url('https://via.placeholder.com/150');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    margin-bottom: 1em;
+    color: #fff;
+}

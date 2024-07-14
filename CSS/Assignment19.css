@@ -1,0 +1,20 @@
+/* Override Bootstrap Styles */
+body {
+    background-color: #f4f4f9;
+}
+
+.header {
+    padding: 1rem 0;
+}
+
+.content {
+    padding: 2rem 0;
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}

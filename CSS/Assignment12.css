@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+    position: relative; /* To contain absolute positioned elements */
+}
+
+.z-index-section {
+    position: relative;
+    height: 400px; /* Ensure enough space to see overlapping */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+    line-height: 150px; /* Center text vertically */
+    position: absolute;
+    top: 50px;
+    border-radius: 4px;
+    opacity: 0.9; /* Slight transparency to see overlap */
+}
+
+/* Specific Box Styles */
+.box1 {
+    background-color: #3498db;
+    left: 50px;
+    z-index: 1;
+}
+
+.box2 {
+    background-color: #e74c3c;
+    left: 100px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: #2ecc71;
+    left: 150px;
+    z-index: 3;
+}

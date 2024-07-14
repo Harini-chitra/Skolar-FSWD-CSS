@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+.positioning-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em;
+    border-radius: 4px;
+    text-align: center;
+    position: static; /* Default positioning */
+}
+
+/* Specific Positioning Styles */
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+}
+
+.sticky {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: #2ecc71;
+}

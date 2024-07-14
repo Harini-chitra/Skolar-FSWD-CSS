@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Section Styles */
+main {
+    padding: 2em;
+}
+
+/* Font Families */
+.font-serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Font Sizes */
+.font-small {
+    font-size: 12px;
+}
+
+.font-medium {
+    font-size: 16px;
+}
+
+.font-large {
+    font-size: 24px;
+}
+
+/* Font Weights */
+.font-light {
+    font-weight: 300;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* Font Styles */
+.font-normal-style {
+    font-style: normal;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-oblique {
+    font-style: oblique;
+}
+
+/* Line Height */
+.line-height-normal {
+    line-height: 1.2;
+}
+
+.line-height-loose {
+    line-height: 2;
+}
+
+/* Text Transform */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
